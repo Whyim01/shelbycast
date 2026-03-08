@@ -28,15 +28,14 @@ export default function Home() {
           Upload, stream, and own your content. No censorship, no middlemen — just you and your audience.
         </p>
         <div className="flex gap-4 mt-4">
-          <button className="bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600">
-            Start Watching
-          </button>
-          <button className="border border-zinc-700 text-white px-6 py-3 rounded-full font-semibold hover:border-zinc-500">
-            Upload Video
-          </button>
+          <a href="#videos" className="bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600">
+           Start Watching
+          </a>
+          <a href="/upload" className="border border-zinc-700 text-white px-6 py-3 rounded-full font-semibold hover:border-zinc-500">
+           Upload Video
+          </a>
         </div>
       </section>
-
       {/* Featured Videos */}
       <section className="px-8 pb-24">
         <h2 className="text-2xl font-bold mb-6">Featured Videos</h2>
