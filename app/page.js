@@ -8,7 +8,8 @@ export default function Home() {
         </div>
         <div className="flex items-center gap-6 text-zinc-400 text-sm">
           <a href="#" className="hover:text-white">Explore</a>
-          <a href="#" className="hover:text-white">Upload</a>
+           <a href="/upload" className="hover:text-white">Upload</a>
+           <a href="/live" className="hover:text-white text-pink-400">🔴 Live</a>
           <button className="bg-pink-500 text-white px-4 py-2 rounded-full text-sm hover:bg-pink-600">
             Connect Wallet
           </button>
